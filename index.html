@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Quantum Pay Demo</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Gilda+Display&display=swap">
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
+        </div>
+    </div>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper navbar-brand valign">
+                <a href="index.html">
+                    <div class="logo">
+                        <img src="img/logo.png" class="logo-img" alt="">
+                    </div>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+                    class="icon-bar"><i class="ti-line-double"></i></span> </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Demo Form -->
+    <section class="testimonials">
+        <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/slider/paymentsbackground.jpg"
+            data-overlay-dark="2">
+            <div class="container">
+                <div class="row">
+                    <!-- DEMO -->
+                    <div class="col-md-4 mb-30 mt-30">
+                        <p><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i
+                                class="star-rating"></i><i class="star-rating"></i></p>
+                        <h5>Simplify your company's payment solutions.</h5>
+                    </div>
+                    <!-- Booking From -->
+                    <div class="col-md-6 offset-md-2">
+                        <div class="booking-box">
+                            <div class="head-box">
+                                <h6>Book a Demo</h6>
+                                <h4>Learn about our payment solutions </h4>
+                            </div>
+                            <div class="booking-inner clearfix">
+                                <form action="confirmation.html" class="form1 clearfix">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="input1_wrapper">
+                                                <label>First Name</label>
+                                                <div class="input1_inner text_input">
+                                                    <input id="firstName" type="text" class="" placeholder="First Name" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="input1_wrapper">
+                                                <label>Last Name</label>
+                                                <div class="input1_inner text_input">
+                                                    <input id="lastName" type="text" class="text"
+                                                        placeholder="Last Name" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="input1_wrapper">
+                                                <label>Email Address</label>
+                                                <div class="input1_inner text_input">
+                                                    <input id="email" type="text" class="text"
+                                                        placeholder="Email Address" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="input1_wrapper">
+                                                <label>Phone Number</label>
+                                                <div class="input1_inner text_input">
+                                                    <input id="phone" type="text" class="form-control"
+                                                        placeholder="10-digit Phone Number (e.g. +15550004567)" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="input1_wrapper">
+                                                <label>Title</label>
+                                                <div class="input1_inner text_input">
+                                                    <input id="title" type="text" class="form-control"
+                                                        placeholder="Title" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="input1_wrapper">
+                                                <label>Company Size</label>
+                                                <div class="input1_inner text_input">
+                                                    <select id="companySize" class="form-control custom-select" required> 
+                                                        <option value="" disabled selected>Select Company Size</option>
+                                                        <option value="1-50">1-50</option>
+                                                        <option value="51-500">51-500</option>
+                                                        <option value="500-2000">500-2000</option>
+                                                        <option value="2000+">2000+</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-6">
+                                            <div class="input1_wrapper">
+                                                <label>Industry</label>
+                                                <div class="input1_inner text_input">
+                                                    <select id="Industry" class="form-control custom-select" required> 
+                                                        <option value="" disabled selected>Select Industry</option>
+                                                        <option value="Retail">Retail</option>
+                                                        <option value="eCommerce">eCommerce</option>
+                                                        <option value="Technology">Technology</option>
+                                                        <option value="Fitness">Fitness</option>
+                                                        <option value="Finance">Finance</option>
+                                                        <option value="Healthcare">Healthcare</option>
+                                                        <option value="Education">Education</option>
+                                                        <option value="Media">Media & Entertainment</option>
+                                                        <option value="Travel">Travel & Hospitality</option>
+                                                        <option value="Sports">Sports</option>
+                                                        <!-- Add more industry options as needed -->
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>                                                                    
+                                        <div class="container ml-1 mt-3">
+                                            <form>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="yes" id="sms_opt_in">
+                                                    <label class="form-check-label" for="newsletter_signup">Opt In for Marketing SMS</label>
+                                                </div>
+                                            </form>
+                                            <div class="head-box ml-4">
+                                                <h12>Opt-In to marketing text messages*</h6>
+                                            </div>
+                                        </div>
+                                        <p class="footer-bottom-copy-right" style="color: black; margin-top: 20px; text-indent: 20px;"> <!-- Increased margin-top to 20px and added text-indent -->
+                                            By submitting this form, you indicate that you have read and agreed to <a href="https://www.attentive.com/legal/privacy" style="color: black;">Quantum Pay's Privacy Policy</a>.
+                                        </p>
+                                        
+                                        <div class="col-md-12">
+                                            <button id="purchase" type="submit" class="btn-form1-submit mt-15">Book
+                                                Now</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer-column footer-about">
+                            <h3 class="footer-title">About Quantum Pay</h3>
+                            <p class="footer-about-text">We are a comprehensive payments solution. This is an Attentive Demo. </p>
+
+                            <div class="footer-language"> <i class="lni ti-world"></i>
+                                <select onchange="location = this.value;">
+                                    <option value="#0">English</option>
+                                    <option value="#0">German</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                        <div class="footer-column footer-explore clearfix">
+                            <h3 class="footer-title">Explore</h3>
+                            <ul class="footer-explore-list list-unstyled">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="products.html">Products</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-column footer-contact">
+                            <h3 class="footer-title">Contact</h3>
+                            <p class="footer-contact-text">221 River St, Hoboken, New Jersey 07030<br>United States of America
+                            </p>
+                            <div class="footer-contact-info">
+                                <p class="footer-contact-phone"><span class="flaticon-call"></span> 833 461 3315</p>
+                                <p class="footer-contact-mail">sales@attentivemobile.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-bottom-inner">
+                            <p class="footer-bottom-copy-right">© Copyright 2024 by <a href="https://www.attentive.com/">Attentive</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/pace.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/attentive-sdk.js"></script>
+    <script src="https://cdn.attn.tv/quantumpaydemo/dtag.js"></script>
+</body>
+
+</html>
