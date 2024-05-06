@@ -26,7 +26,7 @@ $(document).ready(function () {
   lastNameElement.value = localStorage.getItem('lastName') || 'Smith';
   emailElement.value = localStorage.getItem('email') || 'sbarde@attentive.com';
   phoneElement.value = localStorage.getItem('phone') || '+16465043689';
-  titleElement.value = localStorage.getItem('title') || 'Manager';
+  titleElement.value = localStorage.getItem('title') || 'Vice President';
   companySizeElement.value = localStorage.getItem('companySize') || '51-500';
   industryElement.value = localStorage.getItem('Industry') || 'Technology';
   smsOptInElement.checked = localStorage.getItem('smsOptIn') === 'true';
