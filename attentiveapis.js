@@ -54,7 +54,6 @@ $(document).ready(function () {
         })
         .then(response => {
             console.log('Subscription status:', response);
-            // Handle success or any additional actions here
 
            // Delay calling the functions for 30 seconds
            setTimeout(() => {
