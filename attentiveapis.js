@@ -23,7 +23,7 @@ $(document).ready(function () {
 
   // Load form data from localStorage or set default values
   firstNameElement.value = localStorage.getItem('firstName') || 'John';
-  lastNameElement.value = localStorage.getItem('lastName') || 'Doe';
+  lastNameElement.value = localStorage.getItem('lastName') || 'Smith';
   emailElement.value = localStorage.getItem('email') || 'sbarde@attentive.com';
   phoneElement.value = localStorage.getItem('phone') || '+16465043689';
   titleElement.value = localStorage.getItem('title') || 'Manager';
