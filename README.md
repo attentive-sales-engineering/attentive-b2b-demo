@@ -1,2 +1,2 @@
 # attentive-b2b-demo
-Attentive B2B Demo - Quantum Pay
+ B2B Use Cases Demo
