@@ -56,12 +56,12 @@ if (window.location.pathname.endsWith('index.html')) {
         setTimeout(() => {
             meetingRequestEvent(phone, email);
             passCustomAttributes(phone, email);
-        }, 5000); // 5 seconds delay
+        }, 10000); // 5 seconds delay
 
         // send purchase event
         setTimeout(() => {
             sendPurchaseEvent(phone, email);
-        }, 180000); // 5 minutes delay 
+        }, 180000); // 3 minutes delay 
     });
 }
 
