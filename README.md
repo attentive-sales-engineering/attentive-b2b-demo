@@ -17,8 +17,8 @@ To experience this demo, text B2B to +1-833-884-5986
 
 ## Key Files
 
-- **attentiveapis.js**: This file contains the implementation of the Attentive API integration. It provides functions to interact with the Attentive API for sending SMS messages, managing subscribers, and handling custom attributes. This is the home page for the demo website. 
+- **attentiveapis.js**: This file contains the implementation of the Attentive API integration. It provides functions to interact with the Attentive API for sending SMS messages, managing subscribers, and handling custom attributes. 
 
-- **index.html**: This file is the main entry point and homepage of the demo website. It serves as the starting point for users when they visit the website. The file contains the HTML markup, structure, and content that are displayed to users.
+- **index.html**: This file is the main entry point and homepage of the demo website. It serves as the starting point for users when they visit the website. The file contains the HTML markup, structure, and content that are displayed to users. This is the home page for the demo website. 
 
 - **products.html**: This file is where the product view activity happens for the user experience
