@@ -9,7 +9,7 @@ To experience this demo, text B2B to +1-833-884-5986
 
 ## Features
 
-- SMS Marketing: Leverage Attentive's SMS marketing capabilities to send promotional messages, offers, and updates to customers who have opted in to receive SMS notifications. Showcasing the effectiveness of targeted SMS campaigns in driving customer engagement and increasing sales.
+- SMS Marketing & Opt-In: Leverage Attentive's SMS marketing capabilities to send promotional messages, offers, and updates to customers who have opted in to receive SMS notifications. Showcasing the effectiveness of targeted SMS campaigns in driving customer engagement and increasing sales.
 
 - Subscriber Management: Showcase the ability to manage customer subscriptions and preferences using Attentive. Allow customers to opt in or opt out of SMS marketing messages, and provide an easy way for them to update their contact information and preferences.
 
