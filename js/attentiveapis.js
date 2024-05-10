@@ -61,7 +61,15 @@ if (window.location.pathname.endsWith('index.html')) {
         // send purchase event
         setTimeout(() => {
             sendPurchaseEvent(phone, email);
-        }, 180000); // 3 minutes delay 
+        }, 120000); // 2 minutes delay 
+
+        const form = document.getElementById('bookingForm');
+        const thankYouMessage = document.getElementById('thankYouMessage');
+
+        // Hide the form
+        form.style.display = 'none';
+        // Show the thank you for submitting message
+        thankYouMessage.style.display = 'block';
     });
 }
 
@@ -95,7 +103,7 @@ function checkSubscriberStatus(phone, email) {
 
     fetch(url, requestOptions)
         .then(response => {
-            console.log('API Status Code:', response.status);
+            console.log('GET Subscriber API Status Code:', response.status);
             return response.text();
         })
         .then(result => console.log('API Response:', result))
@@ -128,7 +136,7 @@ function subscribeUser(phone, email) {
 
     fetch(apiUrl, requestOptions)
         .then(response => {
-            console.log('API Status Code:', response.status);
+            console.log('POST Subscriber API Status Code:', response.status);
             return response.text();
         })
         .then(result => console.log('API Response:', result))
@@ -160,7 +168,7 @@ function meetingRequestEvent(phone, email) {
 
     fetch(apiUrl, requestOptions)
         .then(response => {
-            console.log('API Status Code:', response.status);
+            console.log('Custom Event API Status Code:', response.status);
             return response.text();
         })
         .then(result => console.log('Meeting request event successfully logged'))
@@ -202,7 +210,7 @@ function passCustomAttributes(phone, email) {
 
     fetch(apiUrl, requestOptions)
         .then(response => {
-            console.log('API Status Code:', response.status); // Log API status code
+            console.log('Custom Attribute API Status Code:', response.status);
             return response.text();
         })
         .then(result => console.log('Custom attributes added successfully')) 
@@ -248,7 +256,7 @@ function sendProductViewEvent(phone, email) {
     };
     fetch(apiUrl, requestOptions)
         .then(response => {
-            console.log('API Status Code:', response.status);
+            console.log('Product View Event API Status Code:', response.status);
             return response.text();
         })
         .then(result => console.log("Product view event recorded successfully"))
@@ -294,7 +302,7 @@ function sendPurchaseEvent(phone, email) {
     };
     fetch(apiUrl, requestOptions)
         .then(response => {
-            console.log('API Status Code:', response.status);
+            console.log('Purchase Event API Status Code:', response.status);
             return response.text();
         })
         .then(result => console.log("Purchase event recorded successfully"))

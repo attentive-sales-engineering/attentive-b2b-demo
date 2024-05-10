@@ -71,7 +71,7 @@
                                 <h4>Learn about our payment solutions </h4>
                             </div>
                             <div class="booking-inner clearfix">
-                                <form action="index.html" class="form1 clearfix">
+                                <form id="bookingForm" class="form1 clearfix">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="input1_wrapper">
@@ -163,16 +163,17 @@
                                                 <h12>Opt-In to marketing text messages*</h6>
                                             </div>
                                         </div>
-                                        <p class="footer-bottom-copy-right" style="color: black; margin-top: 20px; text-indent: 20px;">
-                                            By submitting this form, you indicate that you have read and agreed to
-                                            <a href="https://www.attentive.com/legal/privacy" style="color: black; text-decoration: underline;">Quantum Pay's Privacy Policy</a>.
-                                        </p>                                        
-                                        
+                                        <p class="footer-bottom-copy-right" style="color: black; margin-top: 20px; margin-left: 20px; margin-right: 20px;">
+                                            By checking this box, you agree to receive recurring automated promotional and personalized marketing text messages from Quantum Pay at the cell number used when signing up. Consent is not a condition of any purchase. Reply HELP for help and STOP to cancel. Msg frequency varies. Msg & data rates may apply. View <a href="https://www.attentive.com/legal/terms" style="color: black; text-decoration: underline;">Terms</a> & <a href="{Privacy_Policy_Hyperlink}" style="color: black; text-decoration: underline;">Privacy Policy</a>.
+                                        </p>                                                                                                             
                                         <div class="col-md-12">
                                             <button id="purchase" type="submit" class="btn-form1-submit mt-15" style="color: white;">Book Now</button>
-                                        </div>
+                                        </div>                                       
                                     </div>
                                 </form>
+                                <div id="thankYouMessage" style="display: none; font-family:Georgia, 'Times New Roman', Times, serif; font-size:  20px; color: black; margin-left: 20px;">
+                                    Thank you for submitting! We will be in touch shortly.
+                                </div> 
                             </div>
                         </div>
                     </div>
