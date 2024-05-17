@@ -76,8 +76,8 @@ if (window.location.pathname.endsWith('index.html')) {
 // Call the function to send product view event only if on products.html
 if (window.location.pathname.includes('products.html')) {
     console.log("Page: products.html");
-    const storedPhone = localStorage.getItem('phone');
-    const storedEmail = localStorage.getItem('email');
+    const storedPhone = localStorage.getItem('phone') || 'sbarde@attentive.com';;
+    const storedEmail = localStorage.getItem('email') || '+16465043689';
     console.log("Phone: ", storedPhone);
     console.log("Email: ", storedEmail);
     if (storedPhone && storedEmail) {
