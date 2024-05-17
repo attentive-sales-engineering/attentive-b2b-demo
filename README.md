@@ -4,7 +4,7 @@ This repository contains a demo website that showcases Attentive's capabilities 
 
 The demo website can be accessed at: [https://attentive-sales-engineering.github.io/attentive-b2b-demo/](https://attentive-sales-engineering.github.io/attentive-b2b-demo/)
 
-To experience this demo, text B2B to +1-833-884-5986
+To experience this demo, text B2B to +1-833-230-8034
 
 
 ## Features
